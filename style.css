@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    /* background: #000; */
+}
+
+header .logo img {
+    width: 80%;
+}
+
+header .how-to-register-btn {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.55rem 0.75rem;
+    margin-right: 20px;
+    background-color: #275892;
+    font-weight: 600;
+}
+
+.register {
+    background: url(./images/bg1.jpg) no-repeat;
+
+}
+
+.login {
+    background: url(./images/bg2.jpg) no-repeat;
+}
+
+.backgound {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    /* height: 300px; */
+}
+
+.register-form h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.my-3 {
+    margin: 1.25rem 0;
+}
+
+.mt-2 {
+    margin: .75rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.register-form input,
+.register-form select {
+    color: #ccc2c2;
+    width: 49%;
+    padding: 0.85vw;
+    outline: none;
+    border-radius: 0.3vw;
+    resize: none;
+    border: 1px solid #ccc2c2;
+}
+
+.register-form select {
+    color: #828181;
+}
+
+.register-form button {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding: 0.75rem 4.25rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff3131;
+    cursor: pointer;
+
+}
+
+.digicomp-join {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.already-registered {
+    font-weight: 500;
+}
+
+.already-registered a,
+.digicomp-join a {
+    text-decoration: none;
+    color: #ff3131;
+}
+
+
+.error {
+    color: #ff3131;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 50px;
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+.login-form h4 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #a29f9f;
+    font-size: 0.85rem;
+
+}
+
+.login-form .digicomp-join {
+    font-size: 0.85rem;
+}
+
+.login-form .row {
+    position: relative;
+}
+
+.logo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+
+}
+
+.rememberme input {
+    width: inherit !important;
+    margin-right: 5px;
+}
+
+.rememberme a {
+    color: #4d4d4d;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.login-form label i {
+    color: #a29f9f;
+}
+
+.login-form input {
+    color: #ccc2c2;
+    width: 100%;
+    padding: 0.85vw 1.85vw;
+    outline: none;
+    border-radius: 0.3vw;
+    resize: none;
+    border: 1px solid #ccc2c2;
+}
+
+.login-form button {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding: 0.75rem 4.25rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    background-color: #ff3131;
+    cursor: pointer;
+}
